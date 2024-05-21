@@ -16,8 +16,8 @@ from typing import Optional
 
 from typing_extensions import deprecated
 
-from qianfan.consts import DefaultValue, Env
-from qianfan.utils.pydantic import BaseSettings, Field
+from consts import DefaultValue, Env
+from utils.pydantic import BaseSettings, Field
 
 
 class GlobalConfig(BaseSettings):

@@ -20,7 +20,7 @@ import enum
 from pathlib import Path
 from typing import Set
 
-from qianfan.version import VERSION
+from version import VERSION
 
 
 class APIErrorCode(enum.Enum):
@@ -289,7 +289,7 @@ class Consts:
     XResponseID: str = "X-Baidu-Request-Id"
     QianfanRequestIdDefaultPrefix: str = f"sdk-py-{VERSION}"
 
-    QianfanCacheDir =  "/tmp/.qianfan_cache"
+    QianfanCacheDir = "/tmp/.qianfan_cache"
     QianfanLLMModelsListCacheKey = "qianfan_llm_models"
 
     DateTimeFormat = "%Y-%m-%dT%H:%M:%SZ"
